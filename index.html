@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>SideBar</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+  />
+</head>
+<body>
+    <aside class="sidebar border">
+        <header class="sidebar-header">
+            <img class="logo-img" src="img/andre-perfil.png" alt="foto do usuario">
+        </header>
+        <nav>
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> home</i>
+                    <span>Home</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> tag</i>
+                    <span>Explorar</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> email</i>
+                    <span>mensagens</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> person</i>
+                    <span>Profile</span>
+                </span>
+            </button>
+        </nav>
+    </aside>
+    <!--criando menu mobile-->
+    <button class="buttom-mobile" onclick="toggleMenu()">
+        <i class="material-symbols-outlined">menu</i>
+        <span>menu</span>
+    </button>
+
+    <nav class="menu-mobile" id="menu-mobile">
+        <button class="buttom-close" onclick="toggleMenu()">
+            <span>
+                <i class="material-symbols-outlined">close</i>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> home</i>
+                <span class="mobile-text">Home</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> tag</i>
+                <span class="mobile-text">Explorar</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> email</i>
+                <span class="mobile-text">mensagens</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> person</i>
+                <span class="mobile-text">Profile</span>
+            </span>
+        </button>
+    </nav>
+
+    <main class="main">
+        <h1> Meus projetos</h1>
+        <span>@andrelyra01</span>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
