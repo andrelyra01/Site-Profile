@@ -5,8 +5,8 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    background-color: #121212;
-    color: #fff;
+    background-color:grey;
+    color: rgb(13, 13, 13);
 }
 
 
@@ -30,7 +30,7 @@ body{
 }
 
 .logo-img {
-    width: 38px;
+    width: 48px;
     min-height: 38px;
     border-radius: 50%;
     object-fit: cover;
@@ -53,12 +53,12 @@ body{
     text-align:left;
     padding: 0px;
 }
-
+/* botões de busca*/
 .sidebar button > span {
     display: inline-flex;
     align-items: center;
     gap: 12px;
-    height: 48px;
+    height: 38px;
     padding: 0 16px 0 12px;
     border-radius: 24px;
     line-height: 1;
